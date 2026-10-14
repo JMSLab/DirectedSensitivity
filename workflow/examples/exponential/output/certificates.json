@@ -1,0 +1,227 @@
+{
+  "baseline": {
+    "target": 1.75,
+    "criterion": 0.0625,
+    "primitive": {
+      "family": "gamma",
+      "mix": 0.0,
+      "alpha": 1.75,
+      "mean": 1.75,
+      "sd": 1.75,
+      "shape": 1.0,
+      "scale": 1.75
+    }
+  },
+  "lower": {
+    "target": 1.6464466094067263,
+    "criterion": 0.062499999999999986,
+    "slack": 1.3877787807814457e-17,
+    "deviation": -0.10355339059327373,
+    "feasible": true,
+    "primitive": {
+      "family": "gamma",
+      "mix": 1.0,
+      "alpha": 1.75,
+      "mean": 1.5,
+      "sd": 1.6464466094067263,
+      "shape": 0.8300174328633981,
+      "scale": 1.8071909584179366
+    },
+    "source": "anchor"
+  },
+  "upper": {
+    "target": 2.353553390593274,
+    "criterion": 0.06250000000000007,
+    "slack": -6.938893903907228e-17,
+    "deviation": 0.603553390593274,
+    "feasible": true,
+    "primitive": {
+      "family": "gamma",
+      "mix": 1.0,
+      "alpha": 1.75,
+      "mean": 1.5,
+      "sd": 2.353553390593274,
+      "shape": 0.4061948460127724,
+      "scale": 3.692809041582064
+    },
+    "source": "anchor"
+  },
+  "analytic": {
+    "lower": 1.6464466094067263,
+    "upper": 2.353553390593274
+  },
+  "candidates": {
+    "lower": [
+      {
+        "target": 1.6464466094067263,
+        "criterion": 0.062499999999999986,
+        "slack": 1.3877787807814457e-17,
+        "deviation": -0.10355339059327373,
+        "feasible": true,
+        "primitive": {
+          "family": "gamma",
+          "mix": 1.0,
+          "alpha": 1.75,
+          "mean": 1.5,
+          "sd": 1.6464466094067263,
+          "shape": 0.8300174328633981,
+          "scale": 1.8071909584179366
+        },
+        "source": "anchor"
+      },
+      {
+        "target": 1.6464466094067263,
+        "criterion": 0.062499999999999986,
+        "slack": 1.3877787807814457e-17,
+        "deviation": -0.10355339059327373,
+        "feasible": true,
+        "primitive": {
+          "family": "gamma",
+          "mix": 1.0,
+          "alpha": 0.75,
+          "mean": 1.5,
+          "sd": 1.6464466094067263,
+          "shape": 0.8300174328633981,
+          "scale": 1.8071909584179366
+        },
+        "source": "GeneralizedReducedGradient"
+      },
+      {
+        "target": 1.7475295141754816,
+        "criterion": 0.06250000009999991,
+        "slack": -9.999991112952245e-11,
+        "deviation": -0.0024704858245183647,
+        "feasible": true,
+        "primitive": {
+          "family": "gamma",
+          "mix": 0.00016837318911877775,
+          "alpha": 1.7475465366926584,
+          "mean": 1.7475048564928202,
+          "sd": 1.7475295141754816,
+          "shape": 0.9999717801519217,
+          "scale": 1.7475541722060686
+        },
+        "source": "FeasibleSequentialQuadraticProgramming"
+      }
+    ],
+    "upper": [
+      {
+        "target": 2.353553390593274,
+        "criterion": 0.06250000000000007,
+        "slack": -6.938893903907228e-17,
+        "deviation": 0.603553390593274,
+        "feasible": true,
+        "primitive": {
+          "family": "gamma",
+          "mix": 1.0,
+          "alpha": 1.75,
+          "mean": 1.5,
+          "sd": 2.353553390593274,
+          "shape": 0.4061948460127724,
+          "scale": 3.692809041582064
+        },
+        "source": "anchor"
+      },
+      {
+        "target": 2.353553390116215,
+        "criterion": 0.0624999998313343,
+        "slack": 1.6866569946261123e-10,
+        "deviation": 0.6035533901162151,
+        "feasible": true,
+        "primitive": {
+          "family": "gamma",
+          "mix": 0.9999999999794638,
+          "alpha": -20.876539576688078,
+          "mean": 1.49999999954047,
+          "sd": 2.353553390116215,
+          "shape": 0.4061948459285632,
+          "scale": 3.6928090412163237
+        },
+        "source": "GeneralizedReducedGradient"
+      },
+      {
+        "target": 2.353553390484723,
+        "criterion": 0.06249999996162151,
+        "slack": 3.837848788768028e-11,
+        "deviation": 0.603553390484723,
+        "feasible": true,
+        "primitive": {
+          "family": "gamma",
+          "mix": 0.9999999995296909,
+          "alpha": 2.122746104656524,
+          "mean": 1.5000000002928833,
+          "sd": 2.353553390484723,
+          "shape": 0.40619484620886515,
+          "scale": 3.6928090405203817
+        },
+        "source": "FeasibleSequentialQuadraticProgramming"
+      }
+    ]
+  },
+  "nesting": {
+    "lower": {
+      "nests": true,
+      "feasible": true,
+      "criterion_gap": 0.0,
+      "target_gap": 0.0,
+      "violated": []
+    },
+    "upper": {
+      "nests": true,
+      "feasible": true,
+      "criterion_gap": 0.0,
+      "target_gap": 0.0,
+      "violated": []
+    },
+    "path": {
+      "nests": true,
+      "feasible": true,
+      "criterion_gap": 0.0,
+      "target_gap": 0.0,
+      "violated": []
+    }
+  },
+  "working_model": {
+    "minimizer": 1.75,
+    "minimum": 0.0625,
+    "nesting_gap": 0.0
+  },
+  "solvers": {
+    "lower": {
+      "GeneralizedReducedGradient": {
+        "iterations": 25,
+        "feasible_candidates": 25,
+        "infeasible_candidates": 0,
+        "converged": false
+      },
+      "FeasibleSequentialQuadraticProgramming": {
+        "iterations": 25,
+        "feasible_candidates": 25,
+        "infeasible_candidates": 0,
+        "converged": false
+      }
+    },
+    "upper": {
+      "GeneralizedReducedGradient": {
+        "iterations": 25,
+        "feasible_candidates": 25,
+        "infeasible_candidates": 0,
+        "converged": false
+      },
+      "FeasibleSequentialQuadraticProgramming": {
+        "iterations": 25,
+        "feasible_candidates": 25,
+        "infeasible_candidates": 0,
+        "converged": false
+      }
+    }
+  },
+  "spend": {
+    "criterion": 2676,
+    "target": 562
+  },
+  "limits": {
+    "criterion": 5000,
+    "target": 5000
+  }
+}

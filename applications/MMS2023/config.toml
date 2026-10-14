@@ -1,0 +1,6 @@
+[paths]
+data = "../../temp/MMS2023/jvac067_martinez_meier_sprenger_distribution_code.zip"
+output_dir = "output"
+
+[members]
+data = "Distribution Code/Condensed_Data.xlsx"

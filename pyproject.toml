@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DirectedSensitivity"
+version = "0.1.0"
+description = "An LLM workflow for functional form sensitivity analysis"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Isaiah Andrews"}, {name = "Simon Essig Aberg"},
+           {name = "Jesse M. Shapiro"}]
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "matplotlib>=3.5", "pillow>=9.1"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+applications = ["scipy>=1.10", "pandas>=2.0", "statsmodels>=0.14", "openpyxl>=3.1"]
+
+[project.urls]
+Repository = "https://github.com/JMSLab/DirectedSensitivity"
+
+[tool.setuptools]
+packages = ["DirectedSensitivity"]

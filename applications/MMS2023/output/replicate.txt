@@ -1,0 +1,11 @@
+Decision days                  65
+Filers at risk on day 0        15973
+Filings over the decision days 15742
+Person-days at risk            452356
+
+                       recovered       published
+present_bias            0.754854        0.755000
+cost                    2.479704        2.480000
+log_likelihood       -66290.5456     -66290.5500
+
+Rounded to the printed precision: beta 0.755, cost 2.480, log-likelihood -66290.55

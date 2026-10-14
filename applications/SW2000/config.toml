@@ -1,0 +1,3 @@
+[paths]
+data = "../../temp/SW2000/chapt26.html"
+output_dir = "output"

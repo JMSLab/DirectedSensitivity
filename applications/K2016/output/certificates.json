@@ -1,0 +1,131 @@
+{
+  "baseline": {
+    "target": 144.01293406941417,
+    "criterion": 2.797250440267154,
+    "primitive": {
+      "spending_exponent": 0.288509110693,
+      "log_shift_for": -2.98192892931e-05,
+      "log_shift_against": 9.50846758198e-05,
+      "curvature_for": 1.0,
+      "curvature_against": 1.0,
+      "log_scale_for": 6.214608098422191,
+      "log_scale_against": 6.214608098422191,
+      "bump_for": 0.0,
+      "bump_against": 0.0,
+      "log_bump_scale_for": 2.995732273553991,
+      "log_bump_scale_against": 2.995732273553991
+    }
+  },
+  "lower": {
+    "target": 143.39422958025315,
+    "criterion": 2.797191120927129,
+    "slack": 5.931934002489925e-05,
+    "deviation": -0.6187044891610185,
+    "feasible": true,
+    "primitive": {
+      "spending_exponent": 0.289803471493,
+      "log_shift_for": -0.0126732562064,
+      "log_shift_against": -0.0178217396935,
+      "curvature_for": 1.0,
+      "curvature_against": 1.0,
+      "log_scale_for": 6.21460809842,
+      "log_scale_against": 6.21460809842,
+      "bump_for": 0.0,
+      "bump_against": 0.3,
+      "log_bump_scale_for": 2.99573227355,
+      "log_bump_scale_against": 0.69314718056
+    },
+    "log_likelihood": -2.79671788650951,
+    "penalty": 0.00047323441761893737,
+    "spending_millions": [
+      78.08743308398772,
+      74.42397606906091,
+      32.96415462357603,
+      20.708496224814812
+    ],
+    "constraints": {
+      "exponent_above_zero": 0.289803471493,
+      "exponent_below_one": 0.710196528507,
+      "concave_for": 0.0,
+      "concave_against": 0.0,
+      "bump_for": 0.0,
+      "bump_against": 0.3
+    },
+    "source": "solver"
+  },
+  "upper": {
+    "target": 144.44269966492473,
+    "criterion": 2.797208109460461,
+    "slack": 4.233080669280298e-05,
+    "deviation": 0.4297655955105597,
+    "feasible": true,
+    "primitive": {
+      "spending_exponent": 0.288522719667,
+      "log_shift_for": -0.000123915077521,
+      "log_shift_against": 0.00216529816439,
+      "curvature_for": 1.0,
+      "curvature_against": 1.0,
+      "log_scale_for": 6.21460809842,
+      "log_scale_against": 6.21460809842,
+      "bump_for": 0.0,
+      "bump_against": 2.51458053949,
+      "log_bump_scale_for": 2.99573227355,
+      "log_bump_scale_against": 0.00206502544979
+    },
+    "log_likelihood": -2.796642880586528,
+    "penalty": 0.0005652288739332261,
+    "spending_millions": [
+      77.25829205974246,
+      73.87924274985932,
+      32.706256465814256,
+      20.600058035964782
+    ],
+    "constraints": {
+      "exponent_above_zero": 0.288522719667,
+      "exponent_below_one": 0.7114772803330001,
+      "concave_for": 0.0,
+      "concave_against": 0.0,
+      "bump_for": 0.0,
+      "bump_against": 2.51458053949
+    },
+    "source": "solver"
+  },
+  "analytic": {
+    "lower": 0.0,
+    "upper": null
+  },
+  "spend": {
+    "criterion": 350,
+    "target": 350
+  },
+  "limits": {
+    "criterion": 2000,
+    "target": 2000
+  },
+  "published_estimate": {
+    "target": 144.01792718304128,
+    "criterion": 2.7972913365287253,
+    "primitive": {
+      "spending_exponent": 0.2885,
+      "log_shift_for": 0.0,
+      "log_shift_against": 0.0,
+      "curvature_for": 1.0,
+      "curvature_against": 1.0,
+      "log_scale_for": 3.912023005428146,
+      "log_scale_against": 3.912023005428146,
+      "bump_for": 0.0,
+      "bump_against": 0.0,
+      "log_bump_scale_for": 2.995732273553991,
+      "log_bump_scale_against": 2.995732273553991
+    }
+  },
+  "nests_baseline": {
+    "nests": true,
+    "feasible": true,
+    "criterion_gap": 0.0,
+    "target_gap": 0.0,
+    "violated": []
+  },
+  "path_points": 29,
+  "feasible_points_found": 29
+}

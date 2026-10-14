@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper."
+title: "DirectedSensitivity"
+authors:
+  - family-names: Andrews
+    given-names: Isaiah
+  - family-names: Essig Aberg
+    given-names: Simon
+  - family-names: Shapiro
+    given-names: Jesse M.
+repository-code: "https://github.com/JMSLab/DirectedSensitivity"
+license: MIT
+preferred-citation:
+  type: article
+  title: "An LLM Workflow for Functional Form Sensitivity Analysis"
+  year: 2026
+  authors:
+    - family-names: Andrews
+      given-names: Isaiah
+    - family-names: Essig Aberg
+      given-names: Simon
+    - family-names: Shapiro
+      given-names: Jesse M.

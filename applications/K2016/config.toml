@@ -1,0 +1,27 @@
+[paths]
+data = "../../temp/K2016/rdv029_Supplementary_Data.zip"
+estimates = "K2016_table7_estimates.csv"
+targets = "K2016_published_moments.csv"
+output_dir = "output"
+
+[members]
+data = "Supplementary/DataandCode/Data"
+spending = "Supplementary/DataandCode/FORTRAN/dataread.f90"
+
+[model]
+entry_cost = 5000.0
+penalty_weight = 50.0
+likelihood_floor = 1e-16
+
+[simulation]
+draws = 5000
+burn_in = 100
+blocks = 10
+digits = 6
+pattern_chunk = 10
+
+[tolerances]
+equilibrium = 1e-8
+
+[iterations]
+equilibrium = 15
