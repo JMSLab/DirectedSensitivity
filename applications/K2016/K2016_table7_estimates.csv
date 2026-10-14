@@ -1,0 +1,23 @@
+parameter,estimate,standard_error,source
+effectiveness_for,6.73e-6,1.62e-6,Table 7 beta_f
+effectiveness_against,1.63e-4,6.97e-5,Table 7 beta_a
+spending_exponent,0.2885,0.0350,Table 7 gamma
+initial_support_constant,-1.2735,0.3123,Table 7 delta_0
+initial_support_more_regulation,-0.5851,0.3038,Table 7 delta_3
+initial_support_less_regulation,-0.9364,0.4829,Table 7 delta_4
+initial_support_more_spending,-0.3380,0.2811,Table 7 delta_5
+initial_support_salience,-0.4342,10.0442,Table 7 delta_2
+initial_support_opinion,0.7297,16.9400,Table 7 delta_1
+initial_support_scale,1.1578,0.3540,Table 7 sigma_xi
+value_intercept_coal,18.2287,1.1985,Table 7 alpha_0
+value_intercept_oil_gas,18.8535,0.9510,Table 7 alpha_0
+value_intercept_nuclear,18.4490,0.8818,Table 7 alpha_0
+value_intercept_renewable,18.7940,0.9147,Table 7 alpha_0
+value_relevance_coal,1.4129,0.7212,Table 7 alpha_1
+value_relevance_oil_gas,1.0208,0.5944,Table 7 alpha_1
+value_relevance_nuclear,1.1350,0.8266,Table 7 alpha_1
+value_relevance_renewable,0.7538,0.9688,Table 7 alpha_1
+value_scale_coal,1.8333,0.5682,Table 7 sigma_eta
+value_scale_oil_gas,1.4468,0.4887,Table 7 sigma_eta
+value_scale_nuclear,1.5982,0.5570,Table 7 sigma_eta
+value_scale_renewable,1.3158,0.5216,Table 7 sigma_eta

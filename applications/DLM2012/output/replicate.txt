@@ -1,0 +1,30 @@
+Table IV, column 1: the eleven scalars
+  h0       0.414
+  r        0.341
+  eta      0.04
+  gi       10.606
+  s_lar    0.3751
+  s_ecu    0.1438
+  s_svy    6.197
+  mu_s     -26.863
+  sigma_s  29.591
+  timeval  80.656
+  h_2009   0.414
+
+Altruism distribution, recovered from the Table IV implied quantities
+  lar  mu=-14.71414  sigma=21.51314  a_max=92.852
+       share at zero=0.7530 (target 0.753)  E[a|a>0]=12.7860 (target 12.786)
+       sd[a|a>0]=10.5451 (target 10.545)  happy givers=0.5181 (target 0.518)
+       thresholds a_minmin, a_min, a_plus, a_0 = 6.6277, 12.8767, 20.6060, 15.0566
+  ecu  mu=-11.78720  sigma=16.46289  a_max=70.527
+       share at zero=0.7630 (target 0.763)  E[a|a>0]=9.6590 (target 9.659)
+       sd[a|a>0]=7.9924 (target 7.994)  happy givers=0.5284 (target 0.528)
+       thresholds a_minmin, a_min, a_plus, a_0 = 9.0809, 17.6429, 20.6060, 14.6510
+
+Fit and welfare at the benchmark estimates
+  criterion      86.6334 (target 86.618)
+    lar         18.6910
+    ecu         24.8843
+    survey      43.0581
+  welfare lar    -1.1029 (target -1.102)
+  welfare ecu    -0.4417 (target -0.442)

@@ -1,0 +1,19 @@
+[paths]
+data = "EFC2010_table2.csv"
+targets = "EFC2010_table3.xlsx"
+output_dir = "output"
+
+[model]
+criterion_scale = 1000
+price_interval = [0.0, 800.0]
+
+[grids]
+target_points = 500
+
+[tolerances]
+integration = 1e-4
+root = 1e-4
+optimizer = 1e-4
+
+[iterations]
+optimizer = 1000

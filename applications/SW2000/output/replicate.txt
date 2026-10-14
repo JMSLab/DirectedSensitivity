@@ -1,0 +1,22 @@
+sample             1891-1985, T = 95
+deflator           ppi_annual_average_1967
+consumption growth [0.909091, 1.111111]
+gross real return  [0.642271, 1.521614]
+
+first step         delta=0.939587  gamma=+0.492647
+two-step GMM       delta=0.929714  gamma=+0.127284  J=0.786837  (targets delta=0.903  gamma=0.132  J=0.69)
+  standard errors        0.051035        2.742721  (published 0.022, 1.037)
+  deviation, in published standard errors  delta +1.21  gamma -0.00
+
+CUE at the two-step point            S=0.765428
+CUE minimum        delta=0.922097  gamma=-0.272871  S=0.750892
+
+CUE sweep of delta in [0.6, 1.1], gamma in [-6, 60]
+  best grid point  delta=0.970000  gamma=+28.000000  S=0.003767
+  refined          delta=0.968510  gamma=+28.301358  S=0.002707
+
+sensitivity to the deflator used to make returns real (two-step)
+  ppi_annual_average_1967    delta=0.9297  gamma=+0.1273  J=0.7868  S=0.7654
+  ppi_january_1967           delta=0.9229  gamma=-0.2996  J=0.1797  S=0.1789
+  ppi_january_1982           delta=0.9226  gamma=-0.3084  J=0.0917  S=0.0909
+  consumption_deflator_1972  delta=0.9218  gamma=-0.5214  J=0.0369  S=0.0370

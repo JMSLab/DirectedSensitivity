@@ -1,0 +1,32 @@
+Model fit (5000 draws)
+  Enactment (%)     simulated 8.43   published 8.43   observed 8.35
+  Participation coal       simulated 49.01   published 49.02   observed 49.63
+  Participation oil_gas    simulated 65.17   published 65.17   observed 66.73
+  Participation nuclear    simulated 51.27   published 51.27   observed 49.07
+  Participation renewable  simulated 61.37   published 61.09   observed 61.9
+  Spending coal       ($m) simulated 77.13   published 77.15   observed 77.85
+  Spending oil_gas    ($m) simulated 73.72   published 73.76   observed 73.22
+  Spending nuclear    ($m) simulated 32.65   published 32.66   observed 33.92
+  Spending renewable  ($m) simulated 20.54   published 22.36   observed 22.11
+  The spending moment is driven by the upper tail of the value distribution; it is not asserted below.
+
+Effect of lobbying on the enactment probability (percentage points)
+  All lobbied policies  simulated 0.0537   published 0.054
+  Draws matching the observed participation profile: 0.0948
+  Draws with a pure-strategy equilibrium: 1.0000
+
+Average value of a policy ($m) and average returns to lobbying (%)
+  coal       value simulated   812.03   published   802.30      returns simulated  144.02   published  145.80
+  oil_gas    value simulated   846.80   published   823.53      returns simulated  148.29   published  151.86
+  nuclear    value simulated   501.01   published   522.08      returns simulated  136.05   published  139.24
+  renewable  value simulated   534.65   published   549.02      returns simulated  133.85   published  136.99
+  The value is driven by the upper tail of the value distribution, like the spending moment; it is not asserted below.
+
+Change in the enactment probability from a sole lobbyist (percentage points)
+  $       1,000  in support 0.005   published 0.005      in opposition -0.119   published -0.12
+  $      66,000  in support 0.017   published 0.017      in opposition -0.399   published -0.399
+  $   3,000,000  in support 0.050   published 0.05      in opposition -1.190   published -1.191
+
+Criterion at the published estimates
+  criterion 2.797291   mean log likelihood -2.796680   spending penalty 0.000611
+  equilibrium residual 5.80e-16

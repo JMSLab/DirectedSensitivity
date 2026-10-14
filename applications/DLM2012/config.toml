@@ -1,0 +1,14 @@
+[paths]
+data = "../../temp/DLM2012/charity_code_and_appendix.zip"
+output_dir = "output"
+
+[members]
+data = "charity_code_and_appendix/structural estimation/Moments70.mat"
+
+[grids]
+quadrature_nodes = 24
+density_points = 4001
+
+[tolerances]
+mass = 1e-9
+strict_floor = 1e-12

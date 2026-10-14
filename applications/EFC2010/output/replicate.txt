@@ -1,0 +1,14 @@
+Panel A: OLS
+  Demand  intercept=0.95  slope=-0.00072  (targets intercept=0.94  slope=-0.0007)
+  Cost    intercept=391.63  slope=0.15541  (targets intercept=391.69  slope=0.15524)
+
+Panel A: GMM
+  Demand  intercept=0.95  slope=-0.00072
+  Cost    intercept=391.63  slope=0.15541
+
+Panel B:
+  Competitive  Q_C=0.616 (target 0.617)  P_C=463.7 (target 463.5)
+  Efficient    Q_E=0.755 (target 0.756)  P_E=270.0 (target 263.9)
+  CDE=9.28 (target 9.55)
+  ABE=274.03 (target 283.39)
+  EGH=28.72 (target 29.46)
