@@ -53,14 +53,15 @@ def LeastDistance(rows, bounds):
 
 
 def _LeastDistanceOf(rows, bounds):
-    system = np.vstack([rows.T, bounds])
+    scale = np.abs(bounds).max()
+    system = np.vstack([rows.T, bounds / scale])
     goal = np.zeros(system.shape[0])
     goal[-1] = 1.0
     weights = NonNegativeLeastSquares(system, goal)
     residual = system @ weights - goal
     if abs(residual[-1]) <= 1e-12:
         return None
-    solution = -residual[:-1] / residual[-1]
+    solution = -scale * residual[:-1] / residual[-1]
     slack = 1e-6 * (1.0 + np.linalg.norm(solution))
     return solution if np.all(rows @ solution >= bounds - slack) else None
 
